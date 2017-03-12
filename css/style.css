@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Lato";
+	color: #2d3c49;
+	font-size: 18px;
+	line-height: 1;
+	margin: 50px 0;
+}
+.container {
+	margin: 0 auto;
+	padding: 0;	
+}
+header.header {
+    border-bottom: solid 3px #7d97ad;
+    padding: 0 0 10px;
+    margin: 0 auto 30px;
+	text-align: right;
+	text-transform: uppercase;
+}
+.logo {
+	text-align: left;
+}
+.logo i.fa.fa-star-half-o {
+    font-size: 120px;
+    color: #02b3ef;
+}
+h1 {
+	font-size: 50px;	
+	line-height: 1;
+	font-weight: 300;
+	
+}
+h2 {
+	font-size: 30px;	
+	line-height: 1;;
+	color: #7d97ad;
+	font-weight: 400;
+	padding: 10px 30px;
+	text-align: left;
+	
+}
+h3 {
+	font-size: 30px;	
+	line-height: 1;;
+	color: #2d3c49;
+	font-weight: 400;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+h4 {
+	font-size: 20px;	
+	line-height: 1;
+	font-weight: 600;
+}
+p {
+	color: #2d3c49;
+	font-size: 18px;
+	line-height: 1;
+}
+a {
+	color: #2d3c4;	
+}
+img {
+    width: 100%;
+}
+.project {
+	text-align: center;	
+}
+a {
+    color: #2d3c49;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+a:hover {
+    color: #02b3e4;
+	text-decoration: none;
+}
+.container {
+    margin: 0 auto;
+    padding: 0;
+}
+section.row.project {
+    display: flex;
+    flex-wrap: wrap;
+}
+.title {
+	text-align: right;	
+}
+@media screen and (max-width: 992px) {
+	h1 {
+		font-size: 40px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.col-md-4.project-item {
+		width: 50%;	
+	}
+}
+@media screen and (max-width: 990px) {
+	h2 {
+		text-align: center; 
+	}
+}
+@media screen and (max-width: 801px) {
+	.col-md-4.project-item {
+		width: 100%;	
+	}	
+	.col-md-4.project-item.three {
+    order: 0;
+	}
+	.col-md-4.project-item.two {
+    order: 1;
+	}
+	.col-md-4.project-item.one {
+    order: 2;
+	}
+}
+@media screen and (max-width: 800px) {
+	.container {
+		padding: 0 20px; 
+	}
+	.project-item {
+		padding: 0 0 20px;	
+	}
+}
+@media screen and (max-width: 767px) {
+	.title, .logo {
+		text-align: center;
+	}
+}
+@media screen and (max-width: 570px) {
+	body {
+		margin: 20px 0;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	.logo i.fa.fa-star-half-o {
+    font-size: 70px;
+	}
+}
+@media screen and (max-width: 450px) {
+	header {
+		text-align: center;
+	}
+	.logo.pull-left {
+		float: none !important;
+		text-align: center;
+	}
+	.pull-right {
+    float: none !important;
+    text-align: center;
+	}
+}
